@@ -1,6 +1,6 @@
 {
-    "name": "super_brothers_carwash",
-    "short_name": "super_brothers_carwash",
+    "name": "super_brothers",
+    "short_name": "super_brothers",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
