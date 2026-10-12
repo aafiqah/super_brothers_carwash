@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+
+import '../index.dart';
 
 class SuperBrothersTheme {
   SuperBrothersTheme._();
@@ -8,13 +9,33 @@ class SuperBrothersTheme {
   static ThemeData lightTheme(BuildContext context) => ThemeData(
     useMaterial3: true,
     brightness: Brightness.light,
-    fontFamily: GoogleFonts.plusJakartaSans().fontFamily,
+    primaryColor: SuperBrothersColors.primary,
+    scaffoldBackgroundColor: SuperBrothersColors.bg,
+    colorScheme: SuperBrothersColorsSchemeTheme.lightColorSchemeThemeData,
+    textTheme: SuperBrothersTextTheme.lightTextTheme(context),
+    elevatedButtonTheme: SuperBrothersElevatedButtonDecorationTheme.lightElevatedButtonThemeData,
+    toggleButtonsTheme: SuperBrothersToggleButtonTheme.lightToggleButtonsThemeData(context),
+    inputDecorationTheme: SuperBrothersInputDecorationTheme.lightInputDecorationThemeData(context),
+    iconTheme: const IconThemeData(color: SuperBrothersColors.textSub),
+    checkboxTheme: SuperBrothersCheckBoxTheme.lightCheckboxThemeData,
+    dropdownMenuTheme: SuperBrothersDropDownMenuTheme.lightDropDownMenuThemeData,
+    textSelectionTheme: SuperBrothersTextSelectionTheme.lightTextSelectionThemeData,
+    appBarTheme: SuperBrothersAppBarTheme.lightAppBarThemeData(context),
   );
 
   // ✅ Dark Theme with context
   static ThemeData darkTheme(BuildContext context) => ThemeData(
     useMaterial3: true,
     brightness: Brightness.dark,
-    fontFamily: GoogleFonts.plusJakartaSans().fontFamily,
+    colorScheme: SuperBrothersColorsSchemeTheme.darkColorSchemeThemeData,
+    textTheme: SuperBrothersTextTheme.darkTextTheme(context),
+    elevatedButtonTheme: SuperBrothersElevatedButtonDecorationTheme.darkElevatedButtonThemeData,
+    toggleButtonsTheme: SuperBrothersToggleButtonTheme.darkToggleButtonsThemeData(context),
+    inputDecorationTheme: SuperBrothersInputDecorationTheme.darkInputDecorationThemeData(context),
+    iconTheme: const IconThemeData(color: SuperBrothersColors.textSub),
+    checkboxTheme: SuperBrothersCheckBoxTheme.darkCheckboxThemeData,
+    dropdownMenuTheme: SuperBrothersDropDownMenuTheme.darkDropDownMenuThemeData,
+    textSelectionTheme: SuperBrothersTextSelectionTheme.darkTextSelectionThemeData,
+    appBarTheme: SuperBrothersAppBarTheme.darkAppBarThemeData(context),
   );
 }
