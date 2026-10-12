@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:super_brothers/application/index.dart';
 
 import 'core/index.dart';
 import 'l10n/index.dart';
@@ -11,7 +13,10 @@ class SuperBrothersApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  _SuperBrothersAppView(environment: environment);
+    return BlocProvider(
+      create: (context) => SwitchLanguageCubit(),
+      child: _SuperBrothersAppView(environment: environment),
+    );
   }
 }
 
@@ -21,8 +26,10 @@ class _SuperBrothersAppView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-     return MaterialApp.router(
-          title: 'Super Brothers ($environment)',
+    return BlocBuilder<SwitchLanguageCubit, SwitchLanguageState>(
+      builder: (context, languageState) {
+        return MaterialApp.router(
+          title: 'Kad Pekerja Madani ($environment)',
           themeMode: ThemeMode.system,
           theme: SuperBrothersTheme.lightTheme(context),
           darkTheme: SuperBrothersTheme.darkTheme(context),
@@ -44,6 +51,7 @@ class _SuperBrothersAppView extends StatelessWidget {
           },
           routerConfig: AppNavigation.router,
         );
-    
+      },
+    );
   }
 }
