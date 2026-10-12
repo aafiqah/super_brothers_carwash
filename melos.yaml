@@ -1,0 +1,17 @@
+name: super_brothers_carwash_melos
+
+packages:
+  - apps/*
+  - packages/*
+
+# 🧭 Flutter workspace configuration
+flutter:
+  assets:
+    - apps/super_brothers/assets/fonts/
+    - apps/super_brothers/assets/images/
+
+# ⚙️ Workspace Settings
+command:
+  bootstrap:
+    usePubspecOverrides: true
+    runPubGetInParallel: true
