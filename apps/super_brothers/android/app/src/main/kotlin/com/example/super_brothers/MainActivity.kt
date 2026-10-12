@@ -1,4 +1,4 @@
-package com.example.super_brothers
+package com.example.superBrothers
 
 import io.flutter.embedding.android.FlutterActivity
 
