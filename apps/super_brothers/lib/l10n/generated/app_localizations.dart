@@ -100,15 +100,159 @@ abstract class AppLocalizations {
 
   /// No description provided for @appTitle.
   ///
-  /// In en, this message translates to:
-  /// **'Super Brothers Car Wash App'**
+  /// In ms, this message translates to:
+  /// **'Super Brothers Car Wash'**
   String get appTitle;
 
-  /// No description provided for @onboardingApplicationTitle.
+  /// No description provided for @skip.
   ///
-  /// In en, this message translates to:
-  /// **'Super Brothers Car Wash App'**
-  String get onboardingApplicationTitle;
+  /// In ms, this message translates to:
+  /// **'Langkau'**
+  String get skip;
+
+  /// No description provided for @back.
+  ///
+  /// In ms, this message translates to:
+  /// **'Kembali'**
+  String get back;
+
+  /// No description provided for @verify.
+  ///
+  /// In ms, this message translates to:
+  /// **'Sahkan'**
+  String get verify;
+
+  /// No description provided for @continueButton.
+  ///
+  /// In ms, this message translates to:
+  /// **'Teruskan'**
+  String get continueButton;
+
+  /// No description provided for @onboardingQuickBooking.
+  ///
+  /// In ms, this message translates to:
+  /// **'Tempahan Pantas'**
+  String get onboardingQuickBooking;
+
+  /// No description provided for @onboardingQuickBookingDesc.
+  ///
+  /// In ms, this message translates to:
+  /// **'Perkhidmatan cucian kereta terus di lokasi anda, pada bila-bila masa dan di mana sahaja.'**
+  String get onboardingQuickBookingDesc;
+
+  /// No description provided for @onboardingMobileWsOTP.
+  ///
+  /// In ms, this message translates to:
+  /// **'OTP Mudah Alih & WhatsApp'**
+  String get onboardingMobileWsOTP;
+
+  /// No description provided for @onboardingPhoneNumber.
+  ///
+  /// In ms, this message translates to:
+  /// **'Nombor Telefon'**
+  String get onboardingPhoneNumber;
+
+  /// No description provided for @onboardingEnterPhoneNumber.
+  ///
+  /// In ms, this message translates to:
+  /// **'Masukkan nombor telefon anda'**
+  String get onboardingEnterPhoneNumber;
+
+  /// No description provided for @onboardingEnterValidNumber.
+  ///
+  /// In ms, this message translates to:
+  /// **'Masukkan nombor telefon yang sah'**
+  String get onboardingEnterValidNumber;
+
+  /// No description provided for @onboardingRequestOTP.
+  ///
+  /// In ms, this message translates to:
+  /// **'Minta OTP'**
+  String get onboardingRequestOTP;
+
+  /// No description provided for @onboardingOTPCodeSent.
+  ///
+  /// In ms, this message translates to:
+  /// **'Kod OTP telah dihantar melalui SMS atau WhatsApp'**
+  String get onboardingOTPCodeSent;
+
+  /// No description provided for @onboardingVerificationCode.
+  ///
+  /// In ms, this message translates to:
+  /// **'Kod Pengesahan (4 digit)'**
+  String get onboardingVerificationCode;
+
+  /// No description provided for @onboardingConnectOTP.
+  ///
+  /// In ms, this message translates to:
+  /// **'Sambungkan perkhidmatan OTP untuk meneruskan.'**
+  String get onboardingConnectOTP;
+
+  /// No description provided for @onboardingEnterVerificationOTPCode.
+  ///
+  /// In ms, this message translates to:
+  /// **'Sila masukkan kod pengesahan 4 digit.'**
+  String get onboardingEnterVerificationOTPCode;
+
+  /// No description provided for @onboardingQuickBookingLookup.
+  ///
+  /// In ms, this message translates to:
+  /// **'Carian Tempahan Pantas'**
+  String get onboardingQuickBookingLookup;
+
+  /// No description provided for @onboardingQuickBookingLookupDesc.
+  ///
+  /// In ms, this message translates to:
+  /// **'Pautkan nombor pendaftaran kereta anda supaya petugas cucian kereta dapat mengenal pasti dan menyediakan kenderaan anda dengan segera.'**
+  String get onboardingQuickBookingLookupDesc;
+
+  /// No description provided for @onboardingCarOwner.
+  ///
+  /// In ms, this message translates to:
+  /// **'Pemilik kereta'**
+  String get onboardingCarOwner;
+
+  /// No description provided for @onboardingEnterVehicleNumber.
+  ///
+  /// In ms, this message translates to:
+  /// **'Masukkan nombor pendaftaran kenderaan anda untuk meneruskan.'**
+  String get onboardingEnterVehicleNumber;
+
+  /// No description provided for @onboardingEnterCarPlateNumber.
+  ///
+  /// In ms, this message translates to:
+  /// **'Masukkan nombor pendaftaran kereta anda'**
+  String get onboardingEnterCarPlateNumber;
+
+  /// No description provided for @onboardingEnterValidCarPlate.
+  ///
+  /// In ms, this message translates to:
+  /// **'Masukkan nombor pendaftaran kereta yang sah'**
+  String get onboardingEnterValidCarPlate;
+
+  /// No description provided for @onboardingCarPlateNumber.
+  ///
+  /// In ms, this message translates to:
+  /// **'Nombor Pendaftaran Kereta'**
+  String get onboardingCarPlateNumber;
+
+  /// No description provided for @onboardingEgCarPlate.
+  ///
+  /// In ms, this message translates to:
+  /// **'cth. ABC1234'**
+  String get onboardingEgCarPlate;
+
+  /// No description provided for @onboardingFindMyCar.
+  ///
+  /// In ms, this message translates to:
+  /// **'Cari Kereta Saya'**
+  String get onboardingFindMyCar;
+
+  /// No description provided for @onboardingConnectVehicleLookup.
+  ///
+  /// In ms, this message translates to:
+  /// **'Sambungkan perkhidmatan carian kenderaan untuk'**
+  String get onboardingConnectVehicleLookup;
 }
 
 class _AppLocalizationsDelegate

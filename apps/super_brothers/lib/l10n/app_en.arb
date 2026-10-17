@@ -1,4 +1,31 @@
 {
-  "appTitle": "Super Brothers Car Wash App",
-  "onboardingApplicationTitle": "Super Brothers Car Wash App"
+  "appTitle": "Super Brothers Car Wash",
+
+  "skip":"Skip", 
+  "back":"Back",
+  "verify":"Verify", 
+  "continueButton":"Continue", 
+
+  "onboardingQuickBooking":"Quick Booking",
+  "onboardingQuickBookingDesc":"Instant doorstep service for your car, anytime, anywhere.",
+  "onboardingMobileWsOTP":"Mobile & WhatsApp OTP",
+  "onboardingPhoneNumber":"Phone Number",
+  "onboardingEnterPhoneNumber":"Enter your phone number",
+  "onboardingEnterValidNumber":"Enter a valid number",
+  "onboardingRequestOTP":"Request OTP",
+  "onboardingOTPCodeSent":"OTP code sent via SMS or WhatsApp",
+  "onboardingVerificationCode":"Verification Code (4 digits)",
+  "onboardingConnectOTP":"Connect your OTP service to continue.",
+  "onboardingEnterVerificationOTPCode":"Please enter the 4-digit verification code.",
+  
+  "onboardingQuickBookingLookup":"Quick Booking Lookup",
+  "onboardingQuickBookingLookupDesc":"Connect your car plate so your detailer can locate and prep your vehicle immediately.",
+  "onboardingCarOwner":"Car Owner",
+  "onboardingEnterVehicleNumber":"Enter your vehicle registration number to continue.",
+  "onboardingEnterCarPlateNumber":"Enter your car plate number", 
+  "onboardingEnterValidCarPlate":"Enter a valid car plate", 
+  "onboardingCarPlateNumber":"Car Plate Number", 
+  "onboardingEgCarPlate":"e.g. ABC1234", 
+  "onboardingFindMyCar":"Find My Car",
+  "onboardingConnectVehicleLookup":"Connect the vehicle lookup service for"
 }

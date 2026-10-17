@@ -1,4 +1,31 @@
 {
-  "appTitle": "Aplikasi Super Brothers Car Wash",
-  "onboardingApplicationTitle": "Aplikasi Super Brothers Car Wash"
+  "appTitle": "Super Brothers Car Wash",
+
+  "skip": "Langkau",
+  "back": "Kembali",
+  "verify": "Sahkan",
+  "continueButton": "Teruskan",
+
+  "onboardingQuickBooking": "Tempahan Pantas",
+  "onboardingQuickBookingDesc": "Perkhidmatan cucian kereta terus di lokasi anda, pada bila-bila masa dan di mana sahaja.",
+  "onboardingMobileWsOTP": "OTP Mudah Alih & WhatsApp",
+  "onboardingPhoneNumber": "Nombor Telefon",
+  "onboardingEnterPhoneNumber": "Masukkan nombor telefon anda",
+  "onboardingEnterValidNumber": "Masukkan nombor telefon yang sah",
+  "onboardingRequestOTP": "Minta OTP",
+  "onboardingOTPCodeSent": "Kod OTP telah dihantar melalui SMS atau WhatsApp",
+  "onboardingVerificationCode": "Kod Pengesahan (4 digit)",
+  "onboardingConnectOTP": "Sambungkan perkhidmatan OTP untuk meneruskan.",
+  "onboardingEnterVerificationOTPCode": "Sila masukkan kod pengesahan 4 digit.",
+
+  "onboardingQuickBookingLookup": "Carian Tempahan Pantas",
+  "onboardingQuickBookingLookupDesc": "Pautkan nombor pendaftaran kereta anda supaya petugas cucian kereta dapat mengenal pasti dan menyediakan kenderaan anda dengan segera.",
+  "onboardingCarOwner":"Pemilik kereta",
+  "onboardingEnterVehicleNumber": "Masukkan nombor pendaftaran kenderaan anda untuk meneruskan.",
+  "onboardingEnterCarPlateNumber": "Masukkan nombor pendaftaran kereta anda",
+  "onboardingEnterValidCarPlate": "Masukkan nombor pendaftaran kereta yang sah",
+  "onboardingCarPlateNumber": "Nombor Pendaftaran Kereta",
+  "onboardingEgCarPlate": "cth. ABC1234",
+  "onboardingFindMyCar": "Cari Kereta Saya",
+  "onboardingConnectVehicleLookup": "Sambungkan perkhidmatan carian kenderaan untuk"
 }
