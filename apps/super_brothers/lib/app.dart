@@ -49,6 +49,7 @@ class _SuperBrothersAppView extends StatelessWidget {
             }
             return supportedLocales.first;
           },
+          locale: languageState.locale,
           routerConfig: AppNavigation.router,
         );
       },
