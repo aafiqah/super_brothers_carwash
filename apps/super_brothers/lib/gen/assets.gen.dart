@@ -26,11 +26,21 @@ class $AssetsImagesGen {
   AssetGenImage get backgroundLogo =>
       const AssetGenImage('assets/images/background_logo.png');
 
+  /// File path: assets/images/en-languange.png
+  AssetGenImage get enLanguange =>
+      const AssetGenImage('assets/images/en-languange.png');
+
+  /// File path: assets/images/ms-languange.png
+  AssetGenImage get msLanguange =>
+      const AssetGenImage('assets/images/ms-languange.png');
+
   /// List of all assets
   List<AssetGenImage> get values => [
     appLogo,
     appMonochromeLogo,
     backgroundLogo,
+    enLanguange,
+    msLanguange,
   ];
 }
 
